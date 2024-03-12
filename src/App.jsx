@@ -1,4 +1,9 @@
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+import AppLayout from './pages/AppLayout';
 export default function App() {
-  return <BrowserRouter></BrowserRouter>;
+  return (
+    <>
+      <AppLayout></AppLayout>
+    </>
+  );
 }
